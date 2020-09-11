@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.ejemplo
+package ar.edu.unahur.obj2.semillasAlViento
 
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.DescribeSpec
