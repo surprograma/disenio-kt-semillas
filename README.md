@@ -4,9 +4,9 @@ En este ejercicio se pide que asuman el rol de quien debe _corregir_ o _revisar_
 
 La solución propuesta funciona, pero tiene algunos defectos hablando en términos de diseño de software. En particular, vamos a focalizarnos en algunos de los que están descriptos en la sección [Cualidades que se pueden estudiar con cierta independencia tecnológica](https://docs.google.com/document/d/14HdvHvS33WqYb6Ak0BGa0IeCTbzeCRSDKs-1Ot-qLDw/edit#heading=h.5ntffpcf14xd) del apunte de cualidades de diseño. 
 
-Lo que se pide es que **lean el enunciado** que está más abajo, **miren la solución propuesta** y agreguen en el código un **comentario por cada defecto** que encuentren. En este comentario, indicar qué cualidad está en juego y por qué creen que lo que señalaron es un defecto.
+Lo que se pide es que **lean el enunciado** que está más abajo, **miren la solución propuesta** y agreguen en el código un **comentario por cada defecto** que encuentren. En este comentario, indicar qué cualidad está en juego y por qué creen que lo que señalaron es un defecto. **Ojo :eye:**: se pide solamente _señalar los defectos_, no tienen que corregirlos (al menos, no para esta primera entrega).  
 
-Ayudín: deberían encontrar defectos relacionados a las siguientes cualidades:
+Deberían encontrar defectos relacionados a las siguientes cualidades:
 * Simplicidad 
 * Robustez
 * (Des)acoplamiento 
