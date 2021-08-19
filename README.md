@@ -12,17 +12,23 @@ La solución propuesta funciona, pero tiene algunos defectos hablando en términ
 
 Este ejercicio tiene tres etapas, que explicamos a continuación y que **deben realizarse en el orden especificado**. 
 
-1. A partir del dominio y los requerimientos que se describen más abajo, **analizar la solución propuesta** y agregar en el código un **comentario por cada defecto** que encuentren. En este comentario, indicar qué cualidad está en juego y por qué creen que lo que señalaron es un defecto.
-1. **Codificar los tests** para todos los requerimientos del enunciado, _sin modificar_ el código original. Si en algún caso un defecto impidiera que se pueda escribir un test, indicarlo con un comentario que explique por qué.
-1. Ahora sí, **corregir** todos los defectos de diseño que tenía la solución original y volver a ejecutar los tests (que deberían pasar). Si en algún caso fuera necesario modificar los tests, indicarlo con un comentario que explique por qué.
+1. A partir del dominio y los requerimientos que se describen más abajo, **analizar la solución propuesta** y agregar en el código un **comentario por cada defecto** que encuentren. En este comentario, indicar qué cualidad está en juego y por qué creen que lo que señalaron es un defecto. Por ejemplo:
+```ts
+// REDUNDANCIA MÍNIMA
+// Esta información ya se encuentra en ..., no tiene sentido volver a ponerlo acá.
+```
+
+2. **Codificar los tests** para todos los requerimientos del enunciado, _sin modificar_ el código original. Si en algún caso un defecto impidiera que se pueda escribir un test, indicarlo con un comentario que explique por qué.
+3. Ahora sí, **corregir** todos los defectos de diseño que tenía la solución original y volver a ejecutar los tests (que deberían pasar). Si en algún caso fuera necesario modificar los tests, indicarlo con un comentario que explique por qué.
+
+Para validar que respetaron el orden de las etapas, les pedimos que hagan (al menos) un commit distinto para cada etapa. Los comentarios de la etapa 1 podrían ser así:
 
 Como ayuda, deberían encontrar defectos relacionados a las siguientes cualidades:
 * Simplicidad 
 * Robustez
-* Acoplamiento 
-* Cohesión
+* Acoplamiento - Cohesión
 * Redundancia mínima
-* Mutaciones controladas 
+* Mutaciones controladas
 
 ## Descripción del dominio
 
