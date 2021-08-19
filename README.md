@@ -8,7 +8,7 @@ En este ejercicio se pide que asuman el rol de quien debe _corregir_ o _revisar_
 
 La solución propuesta funciona, pero tiene algunos defectos hablando en términos de diseño de software. En particular, vamos a focalizarnos en algunos de los que están descriptos en el artículo [Cualidades de diseño independientes de la tecnología](https://surprograma.github.io/libro-disenio-oop/docs/cualidades-disenio/cualidades-independientes-tecnologia/) . 
 
-## Consigna
+## :point_up: Consigna
 
 Este ejercicio tiene tres etapas, que explicamos a continuación y que **deben realizarse en el orden especificado**. 
 
@@ -30,7 +30,7 @@ Como ayuda, deberían encontrar defectos relacionados a las siguientes cualidade
 * Redundancia mínima
 * Mutaciones controladas
 
-## Descripción del dominio
+## :bookmark_tabs: Descripción del dominio
 
 A raíz de la [polémica](https://www.elancasti.com.ar/opinion/2018/11/27/ley-cuestionada-389812.html) reciente sobre la posibilidad de que se modifique la [Ley de semillas y creaciones fitogenéticas, Nº 20.247](http://servicios.infoleg.gob.ar/infolegInternet/anexos/30000-34999/34822/texact.htm), una organización de pequeños productores nos pidió crear una aplicación para poder medir mejor el desempeño de sus huertas.
 
@@ -88,11 +88,11 @@ Una parcela de 20 metros de ancho por 1 metro de largo que recibe 8 horas de sol
 
 Si a esa parcela le plantamos 4 plantas de soja de más de 1 metro (que toleran 9 horas de sol), no tendría complicaciones. Si intentaramos agregar una quinta planta, se superaría la cantidad máxima y nos arrojaría un error.
 
-### 4. Agricultoras
+### Agricultoras
 
 Por último, agregaremos al modelo a las agricultoras, que son las dueñas de la tierra. Para este ejercicio, diremos que la tierra no puede ser ni vendida ni comprada, y por lo tanto cuando se crea una agricultora se configura con todas las parcelas que tiene. 
 
-## Requerimientos
+## :white_check_mark: Requerimientos
 
 ### Plantas
 1. Conocer cuántas **horas de sol tolera** una planta.
