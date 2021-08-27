@@ -89,7 +89,7 @@ Cada parcela soporta una **cantidad máxima de plantas**, según la siguiente re
 
 Nos interesa saber también si la parcela **tiene complicaciones**, lo cual es así si alguna de sus plantas tolera menos sol del que recibe la parcela
 
-:information*source: \_Veamos un ejemplo:*
+ℹ️ _Veamos un ejemplo:_
 
 Una parcela de 20 metros de ancho por 1 metro de largo que recibe 8 horas de sol por día, tiene una superficie de 20 metros cuadrados y la cantidad máxima de plantas que tolera es 4.
 
@@ -117,3 +117,16 @@ Por último, agregaremos al modelo a las agricultoras, que son las dueñas de la
 
 1. Poder consultar la lista de **parcelas semilleras**. Decimos que una parcela es _semillera_ si todas sus plantas dan semillas.
 1. Poder **plantar estratégicamente** una planta (valga la redundancia). En este caso lo que haremos es buscar la parcela que más lugar tenga y agregar allí la planta, respetando las restricciones que ya mencionamos a la hora de plantar.
+
+## Licencia
+
+Esta obra fue elaborada por [Federico Aloi](https://github.com/faloi) y publicada bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+
+### Créditos
+
+:camera_flash: Imagen de portada por <a href="https://unsplash.com/@jlanzarini?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Lanzarini</a> en <a href="https://unsplash.com/s/photos/seed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
