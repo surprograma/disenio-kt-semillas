@@ -118,7 +118,7 @@ Por último, agregaremos al modelo a las agricultoras, que son las dueñas de la
 1. Poder consultar la lista de **parcelas semilleras**. Decimos que una parcela es _semillera_ si todas sus plantas dan semillas.
 1. Poder **plantar estratégicamente** una planta (valga la redundancia). En este caso lo que haremos es buscar la parcela que más lugar tenga y agregar allí la planta, respetando las restricciones que ya mencionamos a la hora de plantar.
 
-## Licencia
+## 🖋 Licencia
 
 Esta obra fue elaborada por [Federico Aloi](https://github.com/faloi) y publicada bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional][cc-by-sa].
 
