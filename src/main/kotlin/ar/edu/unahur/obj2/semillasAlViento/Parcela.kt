@@ -39,7 +39,7 @@ class Agricultora(val parcelas: MutableList<Parcela>) {
     }
 
   fun plantarEstrategicamente(planta: Planta) {
-    val laElegida = parcelas.maxBy { it.cantidadMaximaPlantas() - it.cantidadPlantas }!!
+    val laElegida = parcelas.maxByOrNull { it.cantidadMaximaPlantas() - it.cantidadPlantas }!!
     laElegida.plantas.add(planta)
   }
 }
