@@ -22,7 +22,9 @@ Este ejercicio tiene tres etapas, que explicamos a continuación y que **deben r
 2. **Codificar los tests** para todos los requerimientos del enunciado, _sin modificar_ el código original. Si en algún caso un defecto impidiera que se pueda escribir un test, indicarlo con un comentario que explique por qué.
 3. Ahora sí, **corregir** todos los defectos de diseño que tenía la solución original y volver a ejecutar los tests (que deberían pasar). Si en algún caso fuera necesario modificar los tests, indicarlo con un comentario que explique por qué.
 
-Para validar que respetaron el orden de las etapas, les pedimos que hagan (al menos) un commit distinto para cada etapa. Los comentarios de la etapa 1 podrían ser así:
+⚠️ **Por favor, no borren los comentarios que pusieron en la etapa 1.** Dejenlos incluso aunque eliminen en código, de modo tal que luego podamos ver en el pull request por qué hicieron esa modificación.
+
+Para validar que respetaron el orden de las etapas, les pedimos que hagan (al menos) un commit distinto para cada etapa.
 
 Como ayuda, deberían encontrar defectos relacionados a las siguientes cualidades:
 
